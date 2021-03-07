@@ -127,6 +127,16 @@ def get_sum_zero_pairs(numbers):
     set1 = set([sets])
     return set1
 
+    #better solution
+    # result = []
+    # s = set(numbers)
+
+    # for x in s:
+    #     if x >= 0 and -x in s:
+    #         result.append([-x, x])
+
+    # return result
+
 
 def top_chars(phrase):
     """Find most common character(s) in string.
