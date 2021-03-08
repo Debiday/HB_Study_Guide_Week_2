@@ -96,26 +96,24 @@ class StudentQuiz(object):
 
 
 
-def example():
-    """Usage of all the above classes and methods"""
+# def example():
+#     """Usage of all the above classes and methods"""
 
-    exam1 = Exam('pop quiz')
+#     exam1 = Exam('pop quiz')
 
-    set1 = Question('Who is the Queen of Pop', 'Madonna')
-    set2 = Question('Who is the King of Pop', 'Elvis')
-    set3 = Question('Who is the Queen of Rap?', 'Nicki')
+#     set1 = Question('Who is the Queen of Pop', 'Madonna')
+#     set2 = Question('Who is the King of Pop', 'Elvis')
+#     set3 = Question('Who is the Queen of Rap?', 'Nicki')
 
-    exam1.add_question(set1)
-    exam1.add_question(set2)
-    exam1.add_question(set3)
+#     exam1.add_question(set1)
+#     exam1.add_question(set2)
+#     exam1.add_question(set3)
 
-    student = Student('Jasmine', 'Debugger', '1010 Computer Street')
+#     student = Student('Jasmine', 'Debugger', '1010 Computer Street')
 
-    jasmine_popquiz = StudentExam(student, exam)
+#     jasmine_popquiz = StudentExam(student, exam1)
 
-    jasmine_popquiz.take_test()
-
-
+#     jasmine_popquiz.take_test()
 
 
 
