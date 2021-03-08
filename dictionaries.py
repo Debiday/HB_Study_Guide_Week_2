@@ -128,7 +128,7 @@ def get_sum_zero_pairs(numbers):
     return set1
 
     #better solution
-    # result = []
+    #     result = []
     # s = set(numbers)
 
     # for x in s:
